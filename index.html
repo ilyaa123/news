@@ -7,12 +7,12 @@
     <title>Only frash news - только свежие новоси</title>
     <link rel="stylesheet" href="css/normalize.css">
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/choices.js@9.0.1/public/assets/styles/choices.min.css"/>
-
-<script src="https://cdn.jsdelivr.net/npm/choices.js@9.0.1/public/assets/scripts/choices.min.js"></script>
+    <link rel="stylesheet" href="css/choices.min.css"/>
+    <script defer src="js/choices.min.js"></script>
 
     <link rel="stylesheet" href="css/default.css">
     <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/script.js"></script>
 </head>
 <body>
     <header class="header">
@@ -27,7 +27,7 @@
                         </svg>                                            
                     </button>
                 </label>
-                <select class="js-shoice" name="country">
+                <select class="js-choice" name="country">
                     <option value="">Выберите страну</option>
                     <option value="ru">Россия</option>
                     <option value="ua">Украина</option>
@@ -45,7 +45,7 @@
         <div class="title-wrapper">
             <div class="container">
                 <h1 class="visually-hidden">Агрегатор новостей Only frash news - только свежие новоси</h1>
-                <h2 class="title">По вашему запросу “новости про IT” найдено 6 результатов</h2>
+                <h2 class="title hide">По вашему запросу “новости про IT” найдено 6 результатов</h2>
             </div>
         </div>
         <section class="news">
